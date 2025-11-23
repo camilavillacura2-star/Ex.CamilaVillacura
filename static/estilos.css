@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.contenedor, .menu-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    text-align: left;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.resultado {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+
+.volver {
+    display: block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.btn-menu {
+    padding: 40px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn-ejercicio1 {
+    background-color: #9c27b0;
+}
+
+.btn-ejercicio2 {
+    background-color: #8bc34a;
+}
